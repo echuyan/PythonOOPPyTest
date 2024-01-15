@@ -5,7 +5,7 @@ import math
 class Triangle(Figure):
 
     def __init__(self, side_a, side_b, side_c, name):
-        super().__init__(name="Triangle")
+        super().__init__(name)
         if side_a <= 0 or side_b <= 0 or side_c <= 0 or \
                 side_a+side_b <= side_c or side_b+side_c <= side_a or side_c\
                 + side_a <= side_b:

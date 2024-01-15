@@ -4,7 +4,7 @@ import math
 
 class Circle(Figure):
     def __init__(self, radius, name):
-        super().__init__(name="Circle")
+        super().__init__(name)
         if radius <= 0:
             raise ValueError("Нельзя создать круг")
         self.radius = radius
